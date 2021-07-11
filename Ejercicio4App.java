@@ -17,7 +17,7 @@ public class Ejercicio4App {
 			//Calculamos la suma acumulada de la cantidad de productos
 			totalBrAc += num;
 			//Calculamos el total bruto
-			totalBruto = totalBrAc * pProductos.get(nProducto);
+			totalBruto += num * pProductos.get(nProducto);
 			//Creamos un auxiliar para poder guardar el num de productos
 			aux = cProductos.get(nProducto);
 			//borramos el dato anterior ya que le habremos restado lo que compre el cliente
@@ -30,8 +30,8 @@ public class Ejercicio4App {
 		total = totalBruto + (totalBruto*iva);
 		
 		//Mostramos los mensajes
-		JOptionPane.showMessageDialog(null, "Precio total bruto " + totalBruto);
-		JOptionPane.showMessageDialog(null, "Precio total con 4% de IVA " + total);
+		JOptionPane.showMessageDialog(null, "Precio total bruto: " + totalBruto);
+		JOptionPane.showMessageDialog(null, "Precio total con 4% de IVA: " + total);
 		JOptionPane.showMessageDialog(null, "Nº de articulos total: " + persona.length);
 		nProducto = JOptionPane.showInputDialog("Cuanto dinero te ha dado? ");
 		num = Integer.parseInt(nProducto);
