@@ -17,7 +17,7 @@ public class Ejercicio4App {
 			//Calculamos la suma acumulada de la cantidad de productos
 			totalBrAc += num;
 			//Calculamos el total bruto
-			totalBruto = totalBrAc * pProductos.get((Object)nProducto);
+			totalBruto = totalBrAc * pProductos.get(nProducto);
 			//Creamos un auxiliar para poder guardar el num de productos
 			aux = cProductos.get(nProducto);
 			//borramos el dato anterior ya que le habremos restado lo que compre el cliente
