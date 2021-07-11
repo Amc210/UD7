@@ -32,7 +32,7 @@ public class Ejercicio4App {
 		//Mostramos los mensajes
 		JOptionPane.showMessageDialog(null, "Precio total bruto " + totalBruto);
 		JOptionPane.showMessageDialog(null, "Precio total con 4% de IVA " + total);
-		JOptionPane.showMessageDialog(null, "Nº de articulos total: " + persona.length);
+		JOptionPane.showMessageDialog(null, "NÂº de articulos total: " + persona.length);
 		nProducto = JOptionPane.showInputDialog("Cuanto dinero te ha dado? ");
 		num = Integer.parseInt(nProducto);
 		JOptionPane.showMessageDialog(null, "Cambio a devolver: " + (num - total));			
@@ -43,7 +43,7 @@ public class Ejercicio4App {
 		int nProducto = Integer.parseInt(p);
 		
 		//Hare una matriz de persona que contendra los productos de la compra
-		//no se usar mucho el hashtable
+		//no se usar mucho el hashtable alguien dijo que haria una matriz y me parecio buena idea
 		String [][] persona = new String [nProducto][2];
 		
 		//preguntamos y asignamos los valores a la posicion
@@ -58,7 +58,7 @@ public class Ejercicio4App {
 
 	//Parte ejercicio 3
 	public static void menuTres (Hashtable <String, Double> pProductos, Hashtable <String, Integer> cProductos) {
-			int opcion = Integer.parseInt(JOptionPane.showInputDialog("Que quieres hacer? 1- Ver producto 2 - Ver todos los productos 3 - Añadir producto 4 - Salir"));
+			int opcion = Integer.parseInt(JOptionPane.showInputDialog("Que quieres hacer? 1- Ver producto 2 - Ver todos los productos 3 - AÃ±adir producto 4 - Salir"));
 			boolean salir = false;
 			
 			while (!salir) {
@@ -80,7 +80,7 @@ public class Ejercicio4App {
 						break;
 				}
 				if(opcion != 4) {
-				opcion = Integer.parseInt(JOptionPane.showInputDialog("Que quieres hacer? 1- Ver producto 2 - Ver todos los productos 3 - Añadir producto 4 - Salir"));
+				opcion = Integer.parseInt(JOptionPane.showInputDialog("Que quieres hacer? 1- Ver producto 2 - Ver todos los productos 3 - AÃ±adir producto 4 - Salir"));
 			
 				}
 			}
@@ -122,7 +122,7 @@ public class Ejercicio4App {
 			//Precio-producto
 			pProductos.put("melocoton", 3.50);
 			pProductos.put("pera", 1.95);
-			pProductos.put("piña", 4.00);
+			pProductos.put("piÃ±a", 4.00);
 			pProductos.put("kiwi", 3.95);
 			pProductos.put("manzana", 2.25);
 			pProductos.put("sandia", 6.00);
@@ -134,7 +134,7 @@ public class Ejercicio4App {
 			//Cantidad-producto
 			cProductos.put("melocoton", 35);
 			cProductos.put("pera", 95);
-			cProductos.put("piña", 40);
+			cProductos.put("piÃ±a", 40);
 			cProductos.put("kiwi", 39);
 			cProductos.put("manzana", 25);
 			cProductos.put("sandia", 60);
@@ -143,7 +143,7 @@ public class Ejercicio4App {
 			cProductos.put("nispero", 22);
 			cProductos.put("melon", 66);
 			
-			int opcion = Integer.parseInt(JOptionPane.showInputDialog("Que quieres hacer? 1- Nuevo cliente 2 - Información productos 3 - Salir"));
+			int opcion = Integer.parseInt(JOptionPane.showInputDialog("Que quieres hacer? 1- Nuevo cliente 2 - InformaciÃ³n productos 3 - Salir"));
 			boolean salir = false;
 			
 			while (!salir) {
@@ -164,7 +164,7 @@ public class Ejercicio4App {
 						break;
 				}
 				if(opcion != 3) {
-				opcion = Integer.parseInt(JOptionPane.showInputDialog("Que quieres hacer? 1- Nuevo cliente 2 - Información productos 3 - Salir"));
+				opcion = Integer.parseInt(JOptionPane.showInputDialog("Que quieres hacer? 1- Nuevo cliente 2 - InformaciÃ³n productos 3 - Salir"));
 			
 				}
 			}
