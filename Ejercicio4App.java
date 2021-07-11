@@ -27,7 +27,7 @@ public class Ejercicio4App {
 			
 		}
 		//Calculamos el precio con iva
-		total = totalBruto + (totalBruto*iva);
+		total = totalBruto + (totalBruto*(iva/100));
 		
 		//Mostramos los mensajes
 		JOptionPane.showMessageDialog(null, "Precio total bruto: " + totalBruto);
