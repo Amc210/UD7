@@ -6,7 +6,7 @@ public class Ejercicio2App {
 
 	public static void main(String[] args) {
 		//Parte cliente que va a comprar
-		//Se completa en el 4
+		//Se completa en el 4 ya que obtienes los precios y las cantidades en el ejercicio 3
 		
 		//Creamos el arraylist		
 		ArrayList<Integer> caja = new ArrayList<>();
