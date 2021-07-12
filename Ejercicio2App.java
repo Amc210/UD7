@@ -6,6 +6,7 @@ public class Ejercicio2App {
 
 	public static void main(String[] args) {
 		//Parte cliente que va a comprar
+		//He echo el arrayList y que pregunte los productos
 		//Se completa en el 4 ya que obtienes los precios y las cantidades en el ejercicio 3
 		
 		//Creamos el arraylist		
