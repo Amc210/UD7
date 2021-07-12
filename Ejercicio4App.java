@@ -7,7 +7,7 @@ public class Ejercicio4App {
 		String nProducto; //nombre producto
 		int aux, num;
 		double totalBruto = 0, total = 0, totalBrAc = 0;
-		final double iva = 0.4;//constante
+		final double iva = 0.4;//constante ya que todos los productos tienen un iva igual
 		
 		for(int i = 0; i < persona.length; i++) {
 			//guardamos la cantidad  en una variable pasandolo a int
